@@ -7,6 +7,9 @@ body
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/***********************
+    Navigation-bar
+ **********************/
 header
 {
     font-size: large;
@@ -14,29 +17,31 @@ header
     border-bottom: 0.5em solid blue;
 }
 
-nav ul li
-{
-    display: inline;
-    margin-left: 0.5em;
-}
-
-.n
-{
-    color: orange;
-}
-
 nav ul
 {
+    list-style: none;
     display: inline;
+    bottom: 0;
+
+    margin: 0;
+    padding: 0;
 }
 
 nav
 {
+    text-decoration: none;
     color: blue;
     display: inline;
-    margin-bottom: 0em;
+    /*margin-bottom: 0;*/
 }
 
+/* Make the "n" of nLearn orange */
+#n
+{
+    color: orange;
+}
+
+/* Format the title */
 h1
 {
     display: inline;
@@ -44,6 +49,72 @@ h1
     font-size: 64pt;
 }
 
+/* Display the items of the list side to side to each other instead of displaying them underneath each other */
+nav ul li
+{
+    display: inline;
+    margin-left: 0.5em;
+}
+
+/* Give the navigation items a blue background when hovering over them */
+li a:hover
+{
+    color: white;
+    background-color: blue;
+}
+
+/* Drop-down menu for downloads */
+
+li ul
+{
+    display:none;
+    width:3em;
+    position:relative;
+    left: 53em;
+    color: blue;
+}
+
+li:hover ul
+{
+    display:block;
+    margin: 0;
+    padding: 0;
+}
+
+/*********************************
+        First paragraph on home page
+*********************************/
+#home_first
+{
+    background-color: blue;
+    color: white;
+    padding: 2em;
+    padding-bottom: 4em;
+}
+
+#home_stock_first
+{
+    position: absolute;
+    left: 52em;
+    float: right;
+}
+
+#home_second
+{
+    text-align: right;
+    padding: 2em;
+    padding-bottom: 4em;
+}
+
+#home_stock_second
+{
+    padding: 1em;
+    float: right;
+}
+
+/*********************************
+        Footer
+ ********************************/
 footer
 {
     color: blue;
@@ -58,9 +129,21 @@ footer
     max-width:100%;
 }
 
-table
+/**************************
+      Format links
+ **************************/
+a:link
 {
-    margin: auto;
-    align-self: center;
-    border: 0.5em solid green;
+    text-decoration: none;
+    color:blue;
+}
+a:visited
+{
+    text-decoration: none;
+    color:blue;
+}
+a:active
+{
+    text-decoration: none;
+    color:blue;
 }
