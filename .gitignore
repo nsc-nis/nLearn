@@ -1,4 +1,6 @@
-log.txt
+*.csv
+*.log.
+*.txt
 main
 *.pdf
 .directory

@@ -127,6 +127,18 @@ li:hover ul
     border: 0.1em black solid;
 }
 
+/*********************************
+        Contact page
+ ********************************/
+iframe
+{
+    margin-top: 1em;
+}
+
+.contact
+{
+    margin: 1em;
+}
 
 /*********************************
         Footer
