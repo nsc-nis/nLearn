@@ -63,24 +63,6 @@ li a:hover
     background-color: blue;
 }
 
-/* Drop-down menu for downloads */
-
-li ul
-{
-    display:none;
-    width:3em;
-    position:relative;
-    left: 53em;
-    color: blue;
-}
-
-li:hover ul
-{
-    display:block;
-    margin: 0;
-    padding: 0;
-}
-
 /*********************************
     First paragraph on home page
 *********************************/
@@ -100,7 +82,7 @@ li:hover ul
 }
 
 /*********************************
-   Second paragraph on home page
+   Second paragraph
 *********************************/
 #home_second
 {
