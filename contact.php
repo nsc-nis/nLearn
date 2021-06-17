@@ -62,6 +62,7 @@
                 fwrite($file, $msg);
 
                 fclose($file);
+                echo "Ihre Nachricht wurde erfolgreich versendet!";
             }
         ?>
         <footer>
