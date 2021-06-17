@@ -1,7 +1,7 @@
 <!--
     Contact&Information page
     Author: Niklas Schachl
-    Version: 1.0
+    Version: 1.1
     Date: 17.6.2021
 -->
 <!DOCTYPE html>
@@ -20,9 +20,9 @@
                     <li><a href="index.html">Startseite</a></li>
                     <li><a href="news.html">Aktuelles</a></li>
                     <li><a href="contact.php">Kontakt & Lageplan</a></li>
-                    <li><a href="">Impressum</a></li>
-                    <li><a href="">Datenschutz</a></li>
-                    <li><a href="#">Downloads</a></li>
+                    <li><a href="downloads.php">Downloads</a></li>
+                    <li><a href="impress.html">Impressum</a></li>
+                    <li><a href="privacy.html">Datenschutz</a></li>
                 </ul>
             </nav>
         </header>
@@ -68,7 +68,7 @@
             Copyright (C) 2021 nLearn<br>
             Copyright (C) 2021 Niklas Schachl<br>
             Alle Rechte vorbehalten<br>
-            Informationen zum Datenschutz finden sie <a href="">>>hier<<</a>
+            Informationen zum Datenschutz finden sie <a href="privacy.html">>>hier<<</a>
         </footer>
     </body>
 </html>
