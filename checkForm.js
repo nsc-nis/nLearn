@@ -6,7 +6,7 @@ document.getElementById('msgForm').onsubmit = function ()
     let errorMsg = document.getElementById('errorMsg');
 
     console.log('Formular wird ausgefüllt');
-    if ( txtField.value == '' || emailField.value == '' || msgField.value == '')
+    if ( txtField.value === '' || emailField.value === '' || msgField.value === '')
     {
         errorMsg.innerHTML = 'Feld ist erforderlich';
         txtField.focus();

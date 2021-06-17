@@ -37,9 +37,12 @@
         <div>
             <h3>Kontakt</h3>
             <form action="contact.php" id="msgForm" method="post">
-                Name: <input type="text" id="txtField" name="txtField"><br>
-                E-Mail: <input type="email" id="emailField" name="emailField"><br>
-                Nachricht: <input type="text" id="msgField" name="msgField"><br>
+                Name: <br>
+                <input type="text" id="txtField" name="txtField"><br>
+                E-Mail: <br>
+                <input type="email" id="emailField" name="emailField"><br>
+                Nachricht: <br>
+                <input type="text" id="msgField" name="msgField"><br>
                 <input type="submit" value="Senden" name="submitButton">
                 <span style="color:firebrick" id="errorMsg"></span><br>
                 <script src="checkForm.js" type="text/javascript"></script>
